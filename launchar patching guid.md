@@ -29,3 +29,9 @@ After all, open resource hackr 10005 machine, and go to string tables.
 Replace roblox.com to yours.
 
 ## Thank me later, and thanks for watching this tutorial, subscribe and smash that like buton
+
+# aftermath?
+alr after you patched, you need to have brain and make the setup file directions, because it is pure pain.
+
+you can just use RobloxApp.zip and put all the directiories and 00ng anything with .zip name.
+Still, i dont recommend doing this, try out! because i never tested this ^^^^^
