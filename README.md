@@ -1,6 +1,6 @@
 # Patching guides uwu.
 Useful guides made by me, it works for:
-- Clientz
+- Clientz [android patching guid](https://github.com/TheGuyWhoIsIdiot/meditation-s-Patching-guides/blob/main/android%20patch.md)
 - Radical calculator credidential service (RCCService)
 - Launcher (botstrap)
 
