@@ -9,8 +9,8 @@ After you patch the client, if are you getting 149 error joining to your rcc, yo
 After all, the version check works like this: 7 first version numbers (example: 2.271.9, 2.205.5) androidapp (for android, obvious) or iosapp (ios lol)
 
 here is a example:
-"2.271.9androidapp", "2.271.9iosapp" **(notice that version numbers can probably be different than android or ios)**
-
+""2.271.9androidapp"", ""2.271.9iosapp"" **(notice that version numbers can probably be different than android or ios)**
+_P.S: If using double quotes doesnt work for you, in ios or android, just remove the double quotes and put only 2 quotes ("x.xxx.xandroidapp")_
 ## If are you running rcc, Please reset your gameserver to get it working, or else it will not work
 
 # CREDIT ME AFTER USING THAT OR RAHHHHHHHHHHHHHHHHH 😠😱💢
