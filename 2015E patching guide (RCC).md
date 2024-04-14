@@ -2,8 +2,11 @@
 ## 2015M rcc patch guide to make 2015E client join:
 
 First take ur RCCService and open it in hxd;
+
 then search for the offset "71F040";
+
 then you should see the number 55 in hex tab. 
+
 you need to replace it with C3 and thats it!
 enjoy to be able to play with the 2015E client!
 
