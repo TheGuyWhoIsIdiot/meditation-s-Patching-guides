@@ -1,3 +1,6 @@
+⚠️ ALERT!!! THIS GUIDE IS UNSAFE, SINCE IT JMP A FUNCTION THAT PROTECTS THE RCC!!!
+USE FOR ENTRATAINMENT AND YOUR OWN RISK IF YOU WANT USE THIS GUIDE FOR YOUR REVIVAL
+
 # Not my guide but i fixed it, and i helped him to find out
 ## 2015M rcc patch guide to make 2015E client join:
 
