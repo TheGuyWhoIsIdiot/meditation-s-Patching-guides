@@ -4,7 +4,7 @@
 - bricks game source code
 - a brain
 - a gud computar
--# I USED CHAT GPT 😭 because i am super dumb doing fixes, but credit ai for 20% of the fix
+||I USED CHAT GPT 😭 because i am super dumb doing fixes, but credit ai for 20% of the fix||
 
 ## Step 1: Brick up the client
 You need to download android studio (modern versions doesnt work yuck 🤢) to compile it, also make sure you have your source code.
