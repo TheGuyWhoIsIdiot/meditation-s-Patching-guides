@@ -9,6 +9,7 @@
   <summary>i'm sad to tell you but</summary>
   I USED CHAT GPT 😭 because i am super dumb doing fixes, but credit ai for 20% of the fix
 </details>
+
 ## Step 1: Brick up the client
 You need to download android studio (modern versions doesnt work yuck 🤢) to compile it, also make sure you have your source code.
 -# i hate lazy ppl who wasnt able to touch android src
