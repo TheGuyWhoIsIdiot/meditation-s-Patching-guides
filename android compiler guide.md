@@ -1,6 +1,7 @@
 # tutorial how to do it (THIS IS UNDER WORK THIS GUIDE, BECAUSE I'M DOING THAT WHILE I'M TRYING TO COMPILE THE ANDROID CLIENT)
 ## Requirements:
 - Android studio version 1.5.0 to 2.2.3
+- android ndk version r10e (this specific version) 
 - bricks game source code
 - a brain
 - a gud computar
@@ -43,7 +44,12 @@ Idk what roblox was thinking of, but its a **terrible idea** not putting your ic
 To fix that is just simple.
 just put the god damn icon; that's how.
 
-## Step 4: Under construction 🚧
+## Step 4: fix NDK path
+
+Depending which operating system you use to compile the client, just go to /android/nativeshell/build.grapes and find function `runNDKBuild()`
+Replace it to your path where's the ndk stored at.
+
+## Step 5: Under construction 🚧
 This guide is not complete, also if you reached so far, congrats 🥳, i think you compiled correctly your android client by doing that. tho it's currently at work in progress and soon more stuffs will be given to how to compile a client!
 
 # CREDIT ME OR I WILL GET YOU 😠
