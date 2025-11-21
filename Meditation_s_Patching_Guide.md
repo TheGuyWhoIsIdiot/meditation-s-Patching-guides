@@ -1,6 +1,6 @@
-# How to Patch Roblox clients (Made by meditation):
+# How to Patch Roblox clients (Made by meditation/meditext):
 
-## Player (2015 - 2016):
+## Player (2013-2017E):
 
 You need:
 - x32DBG
@@ -28,9 +28,9 @@ Go to "Strings" and search "Bgiaa"
 
 Open in dump (Select the last one at the menu) and replace it.
 
-## RCCService:
+For android mobile clients: [android patch guide](https://github.com/TheGuyWhoIsIdiot/meditation-s-Patching-guides/blob/main/android%20patch.md)
 
-(modified after publish: Most of the steps here are avaliable, but other wasnt mentioned.)
+## RCCService:
 
 **Do the same steps in the Player btw.**
 
@@ -40,28 +40,15 @@ Open in dump (Select the last one at the menu) and replace it.
 
 Search in hex "00 00 00 00 00 c0 82 40" and change to "00 00 f8 1f 5f a0 02 42".
 
-**(This will make the RCC not shutdowning randomly. Better instead of using SOAP)**
+**(This will make the RCC not shut down randomly. ~~Better instead of using SOAP~~)**
+Quick note here: if you use this in production, you should **not** use this for a production grade, because this can absolutely glitch out the RCC and cause severe memory leakage problems.
 
 ### Camera Fix (2015)
 
-Some cases, we arent able to use the camera normally, but use this script in gameserver.txt:
+I removed this section because the issue is actually related to the client not loading the provided camera script, and can be fixed with these fflags:
+FFlagUsesNewCameraFrustum (False)
+DFFlagUseLuaCameraAndControl (False, this will make it use pre-2015M camera)
 
-```lua
-game:GetService('Players').PlayerAdded:connect(function(player) -- Thanks jetray!
-
-player.CharacterAdded:connect(function(char)
-
-local a = game:GetObjects("rbxasset://fonts/characterCameraScript.rbxmx")[1]:Clone()
-
-a.Parent = char
-
-local test = game:GetObjects("rbxasset://fonts/characterControlScript.rbxmx")[1]:Clone()
-
-test.Parent = char
-
-end)
-
-end)
-```
 
 Aftermath: If you did this correctly, contrags now use it for your revival, idc if this is going to get skidded or not.
+
