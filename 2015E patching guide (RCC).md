@@ -10,7 +10,7 @@ then you should see the number 55 in hex tab.
 you need to replace it with C3 and thats it!
 enjoy to be able to play with the 2015E client!
 
-Guide made by h6di (Thanks vanilla 2015M rcc!)
-# and i helped hadi to find out this too.
+Guide made by ~~h6di~~ (Thanks vanilla 2015M rcc!)
+# you know, lets be honest, i actually writted this guide and he requested me to put his credits instead of mine, but he indeed found the addresses.
 
 ## P.s. we helped one each other but he discovered most of the part.
