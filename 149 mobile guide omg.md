@@ -4,7 +4,7 @@
 
 The version check works like this: 7 first version numbers (example: 2.271.9, 2.205.5) androidapp (for android, obvious) or iosapp (also obvious)
 
-here is a example:
+here is an example:
 "2.271.9androidapp", "2.271.9iosapp"
 
 ## If are you running rcc, Please reset your gameserver to get it working, or else it will not work
