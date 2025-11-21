@@ -1,4 +1,3 @@
-# OwO.
 No one did a patching guide for the boblocks installr but feel welcome.
 
 # How to patch boblocks launchr
@@ -7,20 +6,20 @@ you need:
 - hxd. (if you have 1K iq 🧠)
 - resource hacker.
 
-# first step my bois
+# first step
 go to x32dbg and open the file
 (prob everyone knows how to replace strings.)
 string search "roblox.com" (if you dont do that, you can get a pontential massive "updating" shit)
 replace all of them to your domain (or you can do the push address trick to have longer domain names lmfao)
-after that, string search "roblox-player", and replace it to your uri name (e.g. rblx15-player, limrev-player)
+after that, string search "roblox-player", and replace it to your uri name (e.g. rblx15-player, funneh-player)
 
 # add support to have roblocks with your revival.
 This is **crucial**, cus we have roblocks playerz and no one likes uninstalling roblocks to play your revival.
-String search "RobloxReg" and replace to anything (LimrevReg for example)
-ALSO YOU NEED TO CHANGE "ROBLOX Corporation" TOO.
+String search "RobloxReg" and replace to anything (RevivaReg for example)
+~~ALSO YOU NEED TO CHANGE "ROBLOX Corporation" TOO.~~ this is not necessary.
 
 alr, string search "\Roblox" and replace it to your revival name (same applies for the string trick 😎 if you know how to do lmao)
-do that correctly or else you will get fucked up results.
+do that correctly or else u wont get any results.
 
 # Second step.
 apply the patches and you will get results.
@@ -34,4 +33,4 @@ Replace roblox.com to yours.
 alr after you patched, you need to have brain and make the setup file directions, because it is pure pain.
 
 you can just use RobloxApp.zip and put all the directiories and 00ng anything with .zip name.
-Still, i dont recommend doing this, try out! because i never tested this ^^^^^
+Still, i dont recommend doing this, try out! because ~~i never tested this ^^^^^^^^~~ **DO NOT LISTEN ME, THIS DIDN'T WORK AT ALL**
